@@ -16,9 +16,14 @@ int main(void)
 
 	logger = iniciar_logger();
 
-	// Usando el logger creado previamente
+	// Usando el logger creado previamente 
 	// Escribi: "Hola! Soy un log"
 
+	logger = log_create("tp0.log", "Log Inicial", true, LOG_LEVEL_INFO);
+
+	log_info(logger, "Soy un Log");
+
+	//log_destroy(logger);
 
 	/* ---------------- ARCHIVOS DE CONFIGURACION ---------------- */
 
@@ -26,11 +31,53 @@ int main(void)
 
 	// Usando el config creado previamente, leemos los valores del config y los 
 	// dejamos en las variables 'ip', 'puerto' y 'valor'
+	/*
+	if (config == NULL ) {
+		abort();
+	} else if ( config_has_property( config, "IP") ) {
+		ip = config_get_string_value(config, "IP");
+	}
 
+	if (config == NULL ) {
+		abort();
+	} else if ( config_has_property( config, "PUERTO") ) {
+		puerto = config_get_string_value(config, "PUERTO");
+	}
+	*/
 	// Loggeamos el valor de config
 
+	config = config_create("cliente.config");
+
+	if (config == NULL ) {
+		abort();
+	} else if ( config_has_property( config, "CLAVE") ) {
+		
+		logger = log_create("tp0.log", "Log de Clave", true, LOG_LEVEL_INFO);
+
+		valor = config_get_string_value(config, "CLAVE");
+		log_info(logger, valor);
+
+		//log_destroy(logger);
+
+	}
+
+	//config_destroy(config);
 
 	/* ---------------- LEER DE CONSOLA ---------------- */
+
+		char* linea;
+		while (1) {
+			linea = readline("> ");
+
+		if (strcmp(linea, "\0")) {
+			break;
+		} else {
+			log_info(logger, linea);
+		}
+		free(linea);
+		}
+
+		log_destroy(logger);
 
 	leer_consola(logger);
 
