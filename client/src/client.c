@@ -23,7 +23,7 @@ int main(void)
 
 	log_info(logger, "Soy un Log");
 
-	//log_destroy(logger);
+	log_destroy(logger);
 
 	/* ---------------- ARCHIVOS DE CONFIGURACION ---------------- */
 
@@ -57,7 +57,7 @@ int main(void)
 		valor = config_get_string_value(config, "CLAVE");
 		log_info(logger, valor);
 
-		//log_destroy(logger);
+		log_destroy(logger);
 
 	}
 
@@ -66,15 +66,18 @@ int main(void)
 	/* ---------------- LEER DE CONSOLA ---------------- */
 
 		char* linea;
+		logger = log_create("tp0.log", "Log de Consola", true, LOG_LEVEL_INFO);
+
 		while (1) {
 			linea = readline("> ");
 
-		if (strcmp(linea, "\0")) {
+		if (linea == NULL || linea[0] == '\0' ) {
+			free(linea);	
 			break;
 		} else {
 			log_info(logger, linea);
+			free(linea);
 		}
-		free(linea);
 		}
 
 		log_destroy(logger);
