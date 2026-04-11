@@ -21,7 +21,7 @@ int main(void)
 
 	logger = log_create("tp0.log", "Log Inicial", true, LOG_LEVEL_INFO);
 
-	log_info(logger, "Soy un Log");
+	log_info(logger, "Hola! Soy un log");
 
 	log_destroy(logger);
 
@@ -45,44 +45,24 @@ int main(void)
 	} else if ( config_has_property( config, "PUERTO") ) {
 		puerto = config_get_string_value(config, "PUERTO");
 	}
-	
-	// Loggeamos el valor de config
-
 
 	if (config == NULL ) {
 		abort();
 	} else if ( config_has_property( config, "CLAVE") ) {
-		
-		logger = log_create("tp0.log", "Log de Clave", true, LOG_LEVEL_INFO);
-
 		valor = config_get_string_value(config, "CLAVE");
-		log_info(logger, valor);
-
-		log_destroy(logger);
-
 	}
+	
+	// Loggeamos el valor de config
 
-	//config_destroy(config);
+	logger = log_create("tp0.log", "Log de Clave", true, LOG_LEVEL_INFO);
+
+	log_info(logger, valor);
+	log_info(logger, ip);
+	log_info(logger, puerto);
+
+	log_destroy(logger);
 
 	/* ---------------- LEER DE CONSOLA ---------------- */
-
-		char* linea;
-		logger = log_create("tp0.log", "Log de Consola", true, LOG_LEVEL_INFO);
-
-		while (1) {
-			linea = readline("> ");
-
-		if (linea == NULL || linea[0] == '\0' ) {
-			free(linea);	
-			break;
-		} else {
-			add_history(linea);
-			log_info(logger, linea);
-			free(linea);
-		}
-		}
-
-		log_destroy(logger);
 
 	leer_consola(logger);
 
@@ -125,10 +105,25 @@ void leer_consola(t_log* logger)
 	char* leido;
 
 	// La primera te la dejo de yapa
-	leido = readline("> ");
+	
 
 	// El resto, las vamos leyendo y logueando hasta recibir un string vacío
 
+	logger = log_create("tp0.log", "Log de Consola", true, LOG_LEVEL_INFO);
+
+	while (1) {
+		leido = readline("> ");
+	if (leido == NULL || leido[0] == '\0' ) {
+		free(leido);	
+		break;
+	} else {
+		add_history(leido);
+		log_info(logger, leido);
+		free(leido);
+	}
+	}
+
+	log_destroy(logger);
 
 	// ¡No te olvides de liberar las lineas antes de regresar!
 
@@ -151,4 +146,9 @@ void terminar_programa(int conexion, t_log* logger, t_config* config)
 {
 	/* Y por ultimo, hay que liberar lo que utilizamos (conexion, log y config) 
 	  con las funciones de las commons y del TP mencionadas en el enunciado */
+
+	//config_destroy(config);
+	//log_destroy(logger);
+	liberar_conexion(conexion);
+
 }
