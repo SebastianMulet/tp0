@@ -31,7 +31,9 @@ int main(void)
 
 	// Usando el config creado previamente, leemos los valores del config y los 
 	// dejamos en las variables 'ip', 'puerto' y 'valor'
-	/*
+
+	config = config_create("cliente.config");	
+
 	if (config == NULL ) {
 		abort();
 	} else if ( config_has_property( config, "IP") ) {
@@ -43,10 +45,9 @@ int main(void)
 	} else if ( config_has_property( config, "PUERTO") ) {
 		puerto = config_get_string_value(config, "PUERTO");
 	}
-	*/
+	
 	// Loggeamos el valor de config
 
-	config = config_create("cliente.config");
 
 	if (config == NULL ) {
 		abort();
@@ -93,6 +94,8 @@ int main(void)
 	conexion = crear_conexion(ip, puerto);
 
 	// Enviamos al servidor el valor de CLAVE como mensaje
+
+	enviar_mensaje(valor, conexion);
 
 	// Armamos y enviamos el paquete
 	paquete(conexion);
