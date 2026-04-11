@@ -75,6 +75,7 @@ int main(void)
 			free(linea);	
 			break;
 		} else {
+			add_history(linea);
 			log_info(logger, linea);
 			free(linea);
 		}
