@@ -78,7 +78,10 @@ int main(void)
 	enviar_mensaje(valor, conexion);
 
 	// Armamos y enviamos el paquete
-	paquete(conexion);
+
+	t_paquete* paquete = crear_paquete();
+
+
 
 	terminar_programa(conexion, logger, config);
 
@@ -100,8 +103,8 @@ t_config* iniciar_config(void)
 	return nuevo_config;
 }
 
-void leer_consola(t_log* logger)
-{
+void leer_consola(t_log* logger) {}
+/* {
 	char* leido;
 
 	// La primera te la dejo de yapa
@@ -128,15 +131,35 @@ void leer_consola(t_log* logger)
 	// ¡No te olvides de liberar las lineas antes de regresar!
 
 }
-
+*/
 void paquete(int conexion)
 {
 	// Ahora toca lo divertido!
 	char* leido;
 	t_paquete* paquete;
+	t_log* logger;
 
 	// Leemos y esta vez agregamos las lineas al paquete
 
+	logger = iniciar_logger();
+	logger = log_create("tp0.log", "Log de Paquete", true, LOG_LEVEL_INFO);
+
+	while (1) {
+		leido = readline("> ");
+	if (leido == NULL || leido[0] == '\0' ) {
+		free(leido);	
+		break;
+	} else {
+		add_history(leido);
+		log_info(logger, leido);
+
+		//agregar_a_paquete(paquete, leido, strlen(leido) + 1 );
+
+		free(leido);
+	}
+	}
+
+	log_destroy(logger);
 
 	// ¡No te olvides de liberar las líneas y el paquete antes de regresar!
 	
