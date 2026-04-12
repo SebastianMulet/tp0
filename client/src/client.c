@@ -73,6 +73,12 @@ int main(void)
 	// Creamos una conexión hacia el servidor
 	conexion = crear_conexion(ip, puerto);
 
+	if (conexion == -1) {
+		logger = log_create("tp0.log", "Log de Error", true, LOG_LEVEL_ERROR);
+		log_error(logger, "No se conecto al servidor");
+		abort();
+	}
+
 	// Enviamos al servidor el valor de CLAVE como mensaje
 
 	enviar_mensaje(valor, conexion);
@@ -103,8 +109,8 @@ t_config* iniciar_config(void)
 	return nuevo_config;
 }
 
-void leer_consola(t_log* logger) {}
-/* {
+void leer_consola(t_log* logger) 
+{
 	char* leido;
 
 	// La primera te la dejo de yapa
@@ -131,7 +137,7 @@ void leer_consola(t_log* logger) {}
 	// ¡No te olvides de liberar las lineas antes de regresar!
 
 }
-*/
+
 void paquete(int conexion)
 {
 	// Ahora toca lo divertido!
