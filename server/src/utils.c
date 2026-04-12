@@ -25,6 +25,7 @@ int iniciar_servidor(void)
 	// Asociamos el socket a un puerto
 
 	setsockopt(socket_servidor, SOL_SOCKET, SO_REUSEPORT, &(int){1}, sizeof(int));
+	
 	bind(socket_servidor, servinfo->ai_addr, servinfo->ai_addrlen);
 	listen(socket_servidor, SOMAXCONN);
 
@@ -42,8 +43,8 @@ int esperar_cliente(int socket_servidor)
 	//assert(!"no implementado!");
 
 	// Aceptamos un nuevo cliente
-	int socket_cliente;
-	log_info(logger, "Se conecto un cliente!");
+	int socket_cliente = accept(socket_servidor, NULL, NULL);
+	log_trace(logger, "Se conecto un cliente!");
 
 	return socket_cliente;
 }

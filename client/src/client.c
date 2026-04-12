@@ -60,7 +60,7 @@ int main(void)
 	log_info(logger, ip);
 	log_info(logger, puerto);
 
-	log_destroy(logger);
+	//log_destroy(logger);
 
 	/* ---------------- LEER DE CONSOLA ---------------- */
 
@@ -87,7 +87,23 @@ int main(void)
 
 	t_paquete* paquete = crear_paquete();
 
+	char * leido;
 
+	while (1) {
+		leido = readline("> ");
+	if (leido == NULL || leido[0] == '\0' ) {
+		free(leido);	
+		break;
+	} else {
+		add_history(leido);
+		agregar_a_paquete(paquete, leido, strlen(leido) + 1);
+		free(leido);
+	}
+	}
+
+	enviar_paquete(paquete, conexion);
+
+	eliminar_paquete(paquete);
 
 	terminar_programa(conexion, logger, config);
 
@@ -127,7 +143,7 @@ void leer_consola(t_log* logger)
 		break;
 	} else {
 		add_history(leido);
-		log_info(logger, leido);
+		agregar_a_paquete(paquete, leido, strlen(leido) + 1);
 		free(leido);
 	}
 	}
