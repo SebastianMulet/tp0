@@ -1,0 +1,445 @@
+[33mcommit 33e3c5ca437220a5c7877292b03c2bf00ed021ab[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sebastian Mulet <sebamulet@frba.utn.edu.ar>
+Date:   Mon Apr 13 02:07:10 2026 +0000
+
+    Listo todo 3.
+
+[33mcommit fb1aba25bb529d6b9aa7cc7e3cef8d251e3e702d[m
+Author: Sebastian Mulet <sebamulet@frba.utn.edu.ar>
+Date:   Sun Apr 12 23:01:36 2026 +0000
+
+    falta ver el paquete
+
+[33mcommit 262e923f0a5443360f0e0a5ff2a193dee5c2ad91[m
+Author: Sebastian Mulet <sebamulet@frba.utn.edu.ar>
+Date:   Sun Apr 12 01:20:00 2026 +0000
+
+    mas cambios
+
+[33mcommit a6baf9e1078b811775336908afad108589179638[m
+Author: Sebastian Mulet <sebamulet@frba.utn.edu.ar>
+Date:   Sat Apr 11 23:48:16 2026 +0000
+
+    algunos cambios
+
+[33mcommit f080d0ee12bbdf052c63d7334273d10a3cbfc6a0[m
+Author: Sebastian Mulet <sebamulet@frba.utn.edu.ar>
+Date:   Sat Apr 11 19:28:37 2026 +0000
+
+    Reordeno 2.
+
+[33mcommit d9ecee36101b4bb162d02e26773a3d80ace7d4c6[m
+Author: Sebastian Mulet <sebamulet@frba.utn.edu.ar>
+Date:   Sat Apr 11 03:58:07 2026 +0000
+
+    Listo todo el 2.
+
+[33mcommit 8405eaf078d2329b14f6e53cf7d6a722a35432cc[m
+Author: Sebastian Mulet <sebamulet@frba.utn.edu.ar>
+Date:   Sat Apr 11 03:29:01 2026 +0000
+
+    2. Leer de consola
+
+[33mcommit f53ed22cef4e67928bba54f2e70537fedd3d54ff[m
+Author: Sebastian Mulet <sebamulet@frba.utn.edu.ar>
+Date:   Sat Apr 11 03:26:10 2026 +0000
+
+    2. Leer de consola
+
+[33mcommit 05da87b576c8b97eed8dd57ef07ea64ecea7e51b[m
+Author: Sebastian Mulet <sebamulet@frba.utn.edu.ar>
+Date:   Sat Apr 11 03:09:19 2026 +0000
+
+    2. Archivos de COnfiguracion
+
+[33mcommit 21177e30658fbccf138764d04f738fe15bf5bde7[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Mar 28 18:19:59 2026 -0300
+
+    Remove crypto library from client and server settings.mk
+
+[33mcommit 9ccb0c65bf8acd3d8c31d7e55f63825bd9d33006[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Mon Sep 1 13:21:14 2025 -0300
+
+    Add crypto library to settings.mk (#35)
+
+[33mcommit fde68e91934dd09e5636e323a92b4cd3dd46553e[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sun Aug 11 17:52:22 2024 -0300
+
+    Update for 2c-2024
+
+[33mcommit 79086eb4b09b0cb0fb0389a0211db008af8c5689[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Fri Mar 29 17:56:21 2024 -0300
+
+    Update utils.c (#22)
+    
+    * Update utils.c
+    
+    * Update utils.c
+
+[33mcommit 84c99b7bbf89c0818f9c9250dd04ac38bf81021d[m
+Merge: ebc0983 f085389
+Author: Nahuel Mazzeo <1645760+nahuemazzeo@users.noreply.github.com>
+Date:   Thu Mar 21 00:52:49 2024 -0300
+
+    Merge pull request #21 from sisoputnfrba/feat/make-template
+    
+    Migro TP0 a makefile project
+
+[33mcommit f085389cbe218cfe8e37973cddb51f21ade30f82[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sun Mar 17 00:09:40 2024 -0300
+
+    Update .gitignore
+
+[33mcommit 6da2be47bc8827b4bfea11a080cd987c5f2d4d92[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sun Mar 17 00:09:29 2024 -0300
+
+    Update .gitignore
+
+[33mcommit c673f20d998f5997c6f7751900f0222d3ffe1bd5[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Mar 16 19:06:26 2024 -0300
+
+    Remove Eclipse files
+
+[33mcommit 07b416285b35e3cb9b07b38f80349930ca3812e6[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Mar 16 19:06:15 2024 -0300
+
+    Update settings.json
+
+[33mcommit a231e4d5148dbac3094b76818741a982e9727fc2[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Mar 16 16:36:38 2024 -0300
+
+    Update tp0.code-workspace
+
+[33mcommit f12f3e29dac5a1a6ee9a7aa03b8d8897113d68e4[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Mar 16 14:49:27 2024 -0300
+
+    Literalmente cierro un array
+
+[33mcommit 20400d1610a3e4de22b25b11f9f2f98b79361d0c[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Mar 16 15:41:59 2024 +0000
+
+    Actualizo .gitignore
+
+[33mcommit 4022ac0e598536882f1ff1e357ce987048c9e8d4[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Mar 16 15:41:24 2024 +0000
+
+    Actualizo launch.json
+
+[33mcommit 5780b0ca77932177330693b6fd41e29d27ae53e8[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Mar 16 14:33:25 2024 +0000
+
+    Actualizo setup en vscode
+
+[33mcommit 0deb48780ba8eafc9beb37fb5bd0b000ea2cc64e[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Mar 16 14:33:03 2024 +0000
+
+    Agrego setup en Eclipse
+
+[33mcommit 7c4d7125843869dc8f90aabc0a0b2cb7ab9e00ce[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Thu Mar 14 20:58:51 2024 -0300
+
+    Migro estructura base a so-project-template
+
+[33mcommit ebc0983c4a820e02705abde049c29a7b34b74722[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Thu Apr 6 13:20:17 2023 -0300
+
+    Quito crear_super_paquete
+
+[33mcommit 3b3759c5b646d20d86fde67f292bc842135d489d[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Apr 1 21:54:15 2023 +0000
+
+    Quito IP hardcodeada
+
+[33mcommit 9b3a907c20d19b0e65b54e9dda26a3edaa07e562[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Mon Aug 1 12:38:42 2022 -0300
+
+    Fix variable global
+
+[33mcommit a265c79448d3bece649ae16f7c26996f19db070d[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Sep 4 15:49:44 2021 -0300
+
+    Agrego fallar si la funcion no esta implementada
+
+[33mcommit d5f78848a576f79d27276fa175a0d0c78c4b5bc7[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Sep 4 15:46:04 2021 -0300
+
+    Fix bucle infinito server sin implementar
+
+[33mcommit 04461786e291f9eedcea134876b83d849f225e39[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Sep 4 15:40:03 2021 -0300
+
+    Fix segfault al loguear una lista
+
+[33mcommit d5697631fa4b6aca2e3cd8adaa4694ef3fe01866[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Sep 4 15:36:45 2021 -0300
+
+    Agrego config del cliente
+
+[33mcommit da9a0be0452155786e51469427ca626b69bfce67[m
+Author: Agustin Ranieri <aguseranieri@gmail.com>
+Date:   Sat Sep 4 15:03:11 2021 -0300
+
+    Agrego comentarios al cliente
+
+[33mcommit 6356cf7f5d9f594fa8da422e2f7f1d22d39ad7e2[m
+Author: Damian Facchini <facchinidm@gmail.com>
+Date:   Sat Aug 21 12:59:50 2021 -0300
+
+    Unifico nombres de archivos y carpetas
+    
+    * unifico idioma de archivos y carpetas
+
+[33mcommit 2e97e00de410ef8128fe29583ec1c14d0f614bbc[m
+Merge: 89bd715 c084c0b
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Thu Aug 19 19:21:01 2021 -0300
+
+    Merge pull request #14 from iago64/master
+    
+    Propuesta tp0 2021
+
+[33mcommit c084c0b75a4cbc9b2b01502a84e8b14c352f87b9[m
+Author: Damian Facchini <facchinidm@gmail.com>
+Date:   Thu Aug 19 19:11:09 2021 -0300
+
+    Propuesta tp0
+
+[33mcommit 89bd7157c66a951dd7175711c3a0ae38c170127f[m
+Author: Damian Facchini <facchinidm@gmail.com>
+Date:   Mon Aug 16 11:25:29 2021 -0300
+
+    Update README.md
+    
+    Deleting resolution branches and links
+
+[33mcommit fe999ff143e94559e9a8b80ec938f051563bdb3a[m
+Merge: ae29251 0d37e3b
+Author: Damian Facchini <facchinidm@gmail.com>
+Date:   Mon Aug 16 11:24:21 2021 -0300
+
+    Merge pull request #13 from sisoputnfrba/master-eclipse
+    
+    Master eclipse
+
+[33mcommit 0d37e3bd4a4edaed1995c56d024d470bfbcb4dfc[m
+Merge: ae29251 904dd2a
+Author: Juan Mesaglio <juan.mesaglio@gmail.com>
+Date:   Tue Sep 1 14:59:05 2020 -0300
+
+    Merge pull request #6 from mesaglio/master
+    
+    projects to eclipse projects
+
+[33mcommit 904dd2ab32d78f54f5e6cd97250cbd8bc22e8a7f[m
+Author: Juan Mesaglio <juan.mesaglio@gmail.com>
+Date:   Tue Sep 1 00:39:51 2020 -0300
+
+    projects to eclipse projects
+
+[33mcommit ae29251b835debc1de5f512f6150806a8b9cdc29[m
+Author: Damian Facchini <facchinidm@gmail.com>
+Date:   Sun Aug 16 18:21:29 2020 -0300
+
+    Update Link
+
+[33mcommit 14629f28dbe7c8eb4543ee25124df37f22794ab6[m
+Merge: 6dfdb1c 7d691d3
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Mon Aug 26 18:46:20 2019 -0300
+
+    Merge pull request #5 from sisoputnfrba/rework
+    
+    primera revision
+
+[33mcommit 7d691d358905468ffcb3bfd59f452d6a77f016f4[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Sat Jul 20 00:17:33 2019 -0300
+
+    primera revision
+
+[33mcommit 6dfdb1cb8753f9166886ce18b312642d0a5d2d88[m
+Merge: 5e164b9 0dd94fc
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Mon Apr 1 14:23:36 2019 -0300
+
+    Merge pull request #4 from sisoputnfrba/Readme
+    
+    Readme
+
+[33mcommit 0dd94fc06462ed996a4ddb757c45123d62c542be[m
+Author: gaston castineira <gastoncastineira@hotmail.com>
+Date:   Mon Apr 1 14:18:43 2019 -0300
+
+    readme update
+
+[33mcommit 833aa0e47684be1497e2fa55fd39b706268851b0[m
+Author: gaston castineira <gastoncastineira@hotmail.com>
+Date:   Mon Apr 1 14:17:38 2019 -0300
+
+    agrego links de resolucion al readme
+
+[33mcommit 5e164b9a1b895f45563a1908b40b2ecc96552074[m
+Merge: 8737e5a 5540d50
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Sat Mar 30 14:11:23 2019 -0300
+
+    Merge pull request #3 from sisoputnfrba/fix
+    
+    fix de nombre de función en utils
+
+[33mcommit 5540d50a536afdd710f1cc4d9777ccfc62f044d5[m
+Author: Mauro <maurocorvaro@est.frba.utn.edu.ar>
+Date:   Sat Mar 30 13:13:55 2019 -0300
+
+    fix de nombre de función en utils
+
+[33mcommit 8737e5a8f117df80e7211532b7e7b8482c517237[m
+Merge: 8d21745 5693633
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Mon Mar 25 23:56:03 2019 -0300
+
+    Merge pull request #1 from sisoputnfrba/PrimerIntento
+    
+    TP0 andando
+
+[33mcommit 5693633efdc26304dcc3893de3930d58f9236230[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Mon Mar 25 23:52:54 2019 -0300
+
+    arreglo mas typos
+
+[33mcommit c3454090b1b56616bd237276315645b8b1af0378[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Mon Mar 25 22:44:06 2019 -0300
+
+    Update makefile
+
+[33mcommit 4e0cd584e6125b59eb82845b18f857e7e7f2d871[m
+Author: Tomás Ferraro <tetferraro@gmail.com>
+Date:   Mon Mar 25 22:43:41 2019 -0300
+
+    arreglo typos
+    
+    Co-Authored-By: gastoncastineira <gastoncastineira@hotmail.com>
+
+[33mcommit 35f8fcc520ef794c6b3ecdae02c08d480579aefc[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Mon Mar 25 14:33:16 2019 -0300
+
+    gaston no sabe punteros
+
+[33mcommit 8d21745563ed9e0cbb56e93c397d9b35b0d12518[m
+Author: Sofía Victoria Cortés <sofiavcortes@gmail.com>
+Date:   Mon Mar 25 14:07:19 2019 -0300
+
+    Update link in README
+
+[33mcommit 9173634ece35ddb9702ea8b4b1a439907b217b1a[m
+Author: Sofía Victoria Cortés <sofiavcortes@gmail.com>
+Date:   Sun Mar 24 22:51:25 2019 -0300
+
+    Update README.md
+
+[33mcommit c6003582cd747229b8464e21e27bd22c3416a528[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Sun Mar 24 19:56:25 2019 -0300
+
+    agrego link a doc de punteros
+
+[33mcommit c0cf50456bebf4b67d9704189403db77eefd80ea[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Sun Mar 24 19:54:55 2019 -0300
+
+    asd
+
+[33mcommit cf5fa4b4f7e85d9cab94380ad5eb808b02f0080e[m
+Merge: 5022cce 5d1073c
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Sun Mar 24 19:53:14 2019 -0300
+
+    Merge branch 'PrimerIntento' of https://github.com/sisoputnfrba/tp0 into PrimerIntento
+
+[33mcommit 5022ccec10d1a589944f88f206c7e9ea052dd44c[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Sun Mar 24 19:52:31 2019 -0300
+
+    reordeno archivos y hago revisiones
+
+[33mcommit 5d1073c7bedd545b4b45c3f76519181843cf75eb[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Thu Mar 21 23:42:50 2019 -0300
+
+    agrego link al apunte de punteros
+
+[33mcommit c587c9bd55d07f5e17bbc9e3db76c44f5b6c44fb[m
+Merge: 4660c7d 6b90585
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Thu Mar 21 22:38:02 2019 -0300
+
+    Merge branch 'PrimerIntento' of https://github.com/sisoputnfrba/tp0 into PrimerIntento
+
+[33mcommit 4660c7d3dca7a2fd33b7485719e5c6a999d3ea49[m
+Merge: 37772a1 8db649d
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Thu Mar 21 22:35:32 2019 -0300
+
+    Merge branch 'PrimerIntento' of https://github.com/sisoputnfrba/tp0 into PrimerIntento
+
+[33mcommit 6b9058566d3fe23569aac074b7eda552840139a9[m
+Merge: 37772a1 8db649d
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Thu Mar 21 22:35:32 2019 -0300
+
+    Merge branch 'PrimerIntento' of https://github.com/sisoputnfrba/tp0 into PrimerIntento
+
+[33mcommit 37772a15f2eb6820130496d6c9bbb00838e9d8a1[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Thu Mar 21 22:23:25 2019 -0300
+
+    TP0 presentado
+
+[33mcommit 8db649d5b2be3939ff34bd835c7ff45224f8263d[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Thu Mar 21 22:23:25 2019 -0300
+
+    TP0 presentado
+
+[33mcommit aa28a6bb4038d314583473a71a0024365917142d[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Sun Mar 17 23:38:56 2019 -0300
+
+    arreglo lo solicitado
+
+[33mcommit 1800b794317e7ca4061c2e994f24967761d2d5ed[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Tue Mar 5 14:03:34 2019 -0300
+
+    conexiones iniciales para TP0
+
+[33mcommit a21c4820f8132980cd26f9a96f9ee691e4d291a9[m
+Author: gastoncastineira <gastoncastineira@hotmail.com>
+Date:   Tue Mar 5 13:52:23 2019 -0300
+
+    agrego README

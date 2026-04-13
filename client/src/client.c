@@ -23,7 +23,7 @@ int main(void)
 
 	log_info(logger, "Hola! Soy un log");
 
-	log_destroy(logger);
+	//log_destroy(logger);
 
 	/* ---------------- ARCHIVOS DE CONFIGURACION ---------------- */
 
