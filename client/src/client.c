@@ -64,7 +64,7 @@ int main(void)
 
 	/* ---------------- LEER DE CONSOLA ---------------- */
 
-	leer_consola(logger);
+	//leer_consola(logger);
 
 	/*---------------------------------------------------PARTE 3-------------------------------------------------------------*/
 
@@ -124,7 +124,7 @@ t_config* iniciar_config(void)
 
 	return nuevo_config;
 }
-
+/*
 void leer_consola(t_log* logger) 
 {
 	char* leido;
@@ -153,7 +153,7 @@ void leer_consola(t_log* logger)
 	// ¡No te olvides de liberar las lineas antes de regresar!
 
 }
-
+*/
 void paquete(int conexion)
 {
 	// Ahora toca lo divertido!
